@@ -12,13 +12,18 @@ section p{
   padding-left: 5px;
   padding-right: 5px;
   padding-bottom: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+  
 }
 
 .container {
-  width: 98%;
+  width: 100%;
   background-color: white;
   position: absolute;
   padding-top: 10px;
+
 
 }
  section h2{
@@ -35,53 +40,56 @@ section p{
 #chicken {
   background-color: lightpink;
   position: relative;
-  margin-right: 20px;
   border: 1px solid black;
   color: black;
+  
 }
 #beef {
   background-color: orangered;
   position: relative;
-  margin-right: 20px;
   border: 1px solid black;
   color: white;
+  
 }
 #sushi {
   background-color: yellow;
   position: relative;
   border: 1px solid black;
   color: black;
-  margin-right: 20px;
+  
 }
 /* Simple Responsive Framework. */
 
 .row {
   width: 100%;
+
 }
 
 /********** DESKTOP VERSION **********/
 @media (min-width: 992px) {
 .col-lg{
   float: left;
-  width: 30%;
+  width: 31%;
   height: auto;
-  border: 1px solid green;
+  border: 1px solid red;
+  margin-right: 10px;
     }
 }
 
 /********** TABLET VERSION **********/
 @media (min-width: 768px) and (max-width: 991px) {
     .col-md-1{
-        width: 46%;
+        width: 47%;
         height: auto;
         float: left;
         border: 1px solid red;
         margin-top: 10px;
+        margin-right: 10px;
     }
     .col-md-2{
         float: left;
         border: 1px solid red;
-        width: 94.5%;
+        width: 95.5%;
         margin-top: 10px;
     }
   
@@ -90,7 +98,7 @@ section p{
 @media (max-width: 767px) {
 
        .col-sm{
-        width: 100%;
+        width: 98%;
         margin-bottom: 10px;
         float: left;
         border: 1px solid red;
