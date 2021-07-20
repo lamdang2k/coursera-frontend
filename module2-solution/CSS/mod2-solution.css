@@ -7,6 +7,7 @@ h1 {
   margin-bottom: 45px;
   text-align: center;
 }
+
 section p{
   padding-top: 40px;
   padding-left: 5px;
@@ -57,11 +58,13 @@ section p{
   border: 1px solid black;
   color: black;
   
+  
 }
 /* Simple Responsive Framework. */
 
 .row {
-  width: 100%;
+  width: 80%;
+  margin: auto;
 
 }
 
