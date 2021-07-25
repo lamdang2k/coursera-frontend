@@ -14,8 +14,7 @@ body {
   border: 0;
 }
 .navbar-brand {
-  padding-top: 20px;
-  padding-bottom: 20px;
+ padding-top: 25px;
 }
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'PT Serif', serif;
@@ -23,8 +22,8 @@ body {
   font-size: 1.5em;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: -10px;
+  margin-bottom: 0px;
   line-height: .75;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
@@ -45,7 +44,7 @@ body {
 }
 .navbar-header button.navbar-toggle {
   clear: both;
-  margin-top: -35px;
+  margin-top: -40px;
 }
 
 /* HOME PAGE */
