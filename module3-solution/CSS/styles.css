@@ -1,0 +1,83 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: whitesmoke;
+  font-family: 'Noto Serif', serif;
+}
+* {
+  box-sizing: border-box;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'PT Serif', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: springgreen;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -35px;
+}
+
+/* HOME PAGE */
+.container p {
+  color: red;
+  font-size: 1.8em;
+  font-family: 'PT Serif', serif;
+  margin-top: 10px;
+}
+.row section{
+  background-color: lightgrey;
+  text-align: center;
+  overflow: hidden;
+  padding: 0;
+  border: 1px solid black;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+.row section p{
+  color: black;
+  font-size: 0.8em;
+}
+
+.row section span{
+  font-family: 'PT Serif', serif;
+  color: black;
+  font-size: 1.5em;
+  style: bold;
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .row{
+    width: 80%;
+    margin-left: 10%;
+  }
